@@ -77,6 +77,11 @@ _G.packer_plugins = {
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/opt/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["DAPInstall.nvim"] = {
+    loaded = true,
+    path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/DAPInstall.nvim",
+    url = "https://github.com/Pocco81/DAPInstall.nvim"
+  },
   ["FixCursorHold.nvim"] = {
     loaded = true,
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/FixCursorHold.nvim",
@@ -214,6 +219,12 @@ _G.packer_plugins = {
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
+  ["nvim-dap"] = {
+    config = { "\27LJ\1\2;\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\18lvim.core.dap\frequire\0" },
+    loaded = true,
+    path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/nvim-lsp-installer",
@@ -236,6 +247,13 @@ _G.packer_plugins = {
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ts-context-commentstring"] = {
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "/home/bryan/.local/share/lunarvim/site/pack/packer/opt/nvim-ts-context-commentstring",
+    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/nvim-web-devicons",
@@ -253,7 +271,7 @@ _G.packer_plugins = {
     url = "https://github.com/akinsho/org-bullets.nvim"
   },
   ["orgmode.nvim"] = {
-    config = { "\27LJ\1\2ˆ\1\0\0\3\0\6\0\t4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\4\0003\2\3\0:\2\5\1>\0\2\1G\0\1\0\21org_agenda_files\1\0\1\27org_default_notes_file\20~/org/notes.org\1\2\0\0\f~/org/*\nsetup\forgmode\frequire\0" },
+    config = { '\27LJ\1\2¡\4\0\0\5\0\24\0"4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\4\0003\2\3\0:\2\5\1>\0\2\0014\0\0\0%\1\6\0>\0\2\0027\0\a\0>\0\1\0023\1\f\0003\2\t\0003\3\n\0:\3\v\2:\2\r\1:\1\b\0004\1\0\0%\2\14\0>\1\2\0027\1\2\0013\2\20\0003\3\15\0003\4\16\0:\4\17\0033\4\18\0:\4\19\3:\3\21\0023\3\22\0:\3\23\2>\1\2\1G\0\1\0\21ensure_installed\1\2\0\0\borg\14highlight\1\0\0&additional_vim_regex_highlighting\1\2\0\0\borg\fdisable\1\2\0\0\borg\1\0\1\venable\2\28nvim-treesitter.configs\17install_info\1\0\1\rfiletype\borg\nfiles\1\3\0\0\17src/parser.c\19src/scanner.cc\1\0\2\rrevision\tmain\burl0https://github.com/milisims/tree-sitter-org\borg\23get_parser_configs\28nvim-treesitter.parsers\20org_agenda_file\1\0\1\27org_default_notes_file\20~/org/notes.org\1\2\0\0\f~/org/*\nsetup\forgmode\frequire\0' },
     loaded = true,
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/orgmode.nvim",
     url = "https://github.com/kristijanhusak/orgmode.nvim"
@@ -272,6 +290,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["postcss-syntax.vim"] = {
+    loaded = true,
+    path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/postcss-syntax.vim",
+    url = "https://github.com/alexlafroscia/postcss-syntax.vim"
   },
   ["project.nvim"] = {
     config = { "\27LJ\1\2?\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\22lvim.core.project\frequire\0" },
@@ -294,6 +317,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["todo-comments.nvim"] = {
+    config = { "\27LJ\1\2?\0\0\2\0\3\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0002\1\0\0>\0\2\1G\0\1\0\nsetup\18todo-comments\frequire\0" },
+    loaded = true,
+    path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
   },
   ["toggleterm.nvim"] = {
     config = { "\27LJ\1\2@\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\23lvim.core.terminal\frequire\0" },
@@ -347,6 +376,11 @@ _G.packer_plugins = {
     path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
   },
+  ["wal.vim"] = {
+    loaded = true,
+    path = "/home/bryan/.local/share/lunarvim/site/pack/packer/start/wal.vim",
+    url = "https://github.com/brainfucksec/wal.vim"
+  },
   ["which-key.nvim"] = {
     config = { "\27LJ\1\2A\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\24lvim.core.which-key\frequire\0" },
     loaded = false,
@@ -367,22 +401,30 @@ time([[Defining packer_plugins]], false)
 time([[Setup for indent-blankline.nvim]], true)
 try_loadstring("\27LJ\1\2ã\2\0\0\2\0\v\0\0254\0\0\0007\0\1\0'\1\1\0:\1\2\0004\0\0\0007\0\1\0%\1\4\0:\1\3\0004\0\0\0007\0\1\0003\1\6\0:\1\5\0004\0\0\0007\0\1\0003\1\b\0:\1\a\0004\0\0\0007\0\1\0)\1\1\0:\1\t\0004\0\0\0007\0\1\0)\1\1\0:\1\n\0G\0\1\0-indent_blankline_show_first_indent_level4indent_blankline_show_trailing_blankline_indent\1\2\0\0\rterminal%indent_blankline_buftype_exclude\1\4\0\0\thelp\rterminal\14dashboard&indent_blankline_filetype_exclude\bâ–\26indent_blankline_char\23indentLine_enabled\6g\bvim\0", "setup", "indent-blankline.nvim")
 time([[Setup for indent-blankline.nvim]], false)
--- Config for: tokyonight.nvim
-time([[Config for tokyonight.nvim]], true)
-try_loadstring("\27LJ\1\2¹\1\0\0\2\0\a\0\0174\0\0\0007\0\1\0%\1\3\0:\1\2\0004\0\0\0007\0\1\0)\1\2\0:\1\4\0004\0\0\0007\0\1\0)\1\1\0:\1\5\0004\0\0\0007\0\1\0)\1\2\0:\1\6\0G\0\1\0\31tokyonight_italic_comments\27tokyonight_transparent#tokyonight_transparent_sidebar\nnight\21tokyonight_style\6g\bvim\0", "config", "tokyonight.nvim")
-time([[Config for tokyonight.nvim]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+try_loadstring("\27LJ\1\2B\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\25lvim.core.treesitter\frequire\0", "config", "nvim-treesitter")
+time([[Config for nvim-treesitter]], false)
 -- Config for: nvim-cmp
 time([[Config for nvim-cmp]], true)
 try_loadstring("\27LJ\1\2;\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\18lvim.core.cmp\frequire\0", "config", "nvim-cmp")
 time([[Config for nvim-cmp]], false)
 -- Config for: orgmode.nvim
 time([[Config for orgmode.nvim]], true)
-try_loadstring("\27LJ\1\2ˆ\1\0\0\3\0\6\0\t4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\4\0003\2\3\0:\2\5\1>\0\2\1G\0\1\0\21org_agenda_files\1\0\1\27org_default_notes_file\20~/org/notes.org\1\2\0\0\f~/org/*\nsetup\forgmode\frequire\0", "config", "orgmode.nvim")
+try_loadstring('\27LJ\1\2¡\4\0\0\5\0\24\0"4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\4\0003\2\3\0:\2\5\1>\0\2\0014\0\0\0%\1\6\0>\0\2\0027\0\a\0>\0\1\0023\1\f\0003\2\t\0003\3\n\0:\3\v\2:\2\r\1:\1\b\0004\1\0\0%\2\14\0>\1\2\0027\1\2\0013\2\20\0003\3\15\0003\4\16\0:\4\17\0033\4\18\0:\4\19\3:\3\21\0023\3\22\0:\3\23\2>\1\2\1G\0\1\0\21ensure_installed\1\2\0\0\borg\14highlight\1\0\0&additional_vim_regex_highlighting\1\2\0\0\borg\fdisable\1\2\0\0\borg\1\0\1\venable\2\28nvim-treesitter.configs\17install_info\1\0\1\rfiletype\borg\nfiles\1\3\0\0\17src/parser.c\19src/scanner.cc\1\0\2\rrevision\tmain\burl0https://github.com/milisims/tree-sitter-org\borg\23get_parser_configs\28nvim-treesitter.parsers\20org_agenda_file\1\0\1\27org_default_notes_file\20~/org/notes.org\1\2\0\0\f~/org/*\nsetup\forgmode\frequire\0', "config", "orgmode.nvim")
 time([[Config for orgmode.nvim]], false)
+-- Config for: nvim-dap
+time([[Config for nvim-dap]], true)
+try_loadstring("\27LJ\1\2;\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\18lvim.core.dap\frequire\0", "config", "nvim-dap")
+time([[Config for nvim-dap]], false)
 -- Config for: telescope.nvim
 time([[Config for telescope.nvim]], true)
 try_loadstring("\27LJ\1\2A\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\24lvim.core.telescope\frequire\0", "config", "telescope.nvim")
 time([[Config for telescope.nvim]], false)
+-- Config for: org-bullets.nvim
+time([[Config for org-bullets.nvim]], true)
+try_loadstring("\27LJ\1\2h\0\0\3\0\6\0\t4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\4\0003\2\3\0:\2\5\1>\0\2\1G\0\1\0\fsymbols\1\0\0\1\6\0\0\bâ—‰\bâ—‹\bâœ¸\bâœ¿\bâœ¼\nsetup\16org-bullets\frequire\0", "config", "org-bullets.nvim")
+time([[Config for org-bullets.nvim]], false)
 -- Config for: nvim-colorizer.lua
 time([[Config for nvim-colorizer.lua]], true)
 try_loadstring("\27LJ\1\2|\0\0\3\0\5\0\b4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0003\2\4\0>\0\3\1G\0\1\0\1\0\a\bcss\2\vrgb_fn\2\rRRGGBBAA\2\vhsl_fn\2\vcss_fn\2\bRGB\2\vRRGGBB\2\1\2\0\0\6*\nsetup\14colorizer\frequire\0", "config", "nvim-colorizer.lua")
@@ -395,18 +437,18 @@ time([[Config for headlines.nvim]], false)
 time([[Config for lualine.nvim]], true)
 try_loadstring("\27LJ\1\2?\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\22lvim.core.lualine\frequire\0", "config", "lualine.nvim")
 time([[Config for lualine.nvim]], false)
+-- Config for: todo-comments.nvim
+time([[Config for todo-comments.nvim]], true)
+try_loadstring("\27LJ\1\2?\0\0\2\0\3\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0002\1\0\0>\0\2\1G\0\1\0\nsetup\18todo-comments\frequire\0", "config", "todo-comments.nvim")
+time([[Config for todo-comments.nvim]], false)
+-- Config for: tokyonight.nvim
+time([[Config for tokyonight.nvim]], true)
+try_loadstring("\27LJ\1\2¹\1\0\0\2\0\a\0\0174\0\0\0007\0\1\0%\1\3\0:\1\2\0004\0\0\0007\0\1\0)\1\2\0:\1\4\0004\0\0\0007\0\1\0)\1\1\0:\1\5\0004\0\0\0007\0\1\0)\1\2\0:\1\6\0G\0\1\0\31tokyonight_italic_comments\27tokyonight_transparent#tokyonight_transparent_sidebar\nnight\21tokyonight_style\6g\bvim\0", "config", "tokyonight.nvim")
+time([[Config for tokyonight.nvim]], false)
 -- Config for: nvim-tree.lua
 time([[Config for nvim-tree.lua]], true)
 try_loadstring("\27LJ\1\2@\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\23lvim.core.nvimtree\frequire\0", "config", "nvim-tree.lua")
 time([[Config for nvim-tree.lua]], false)
--- Config for: nvim-treesitter
-time([[Config for nvim-treesitter]], true)
-try_loadstring("\27LJ\1\2B\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\25lvim.core.treesitter\frequire\0", "config", "nvim-treesitter")
-time([[Config for nvim-treesitter]], false)
--- Config for: org-bullets.nvim
-time([[Config for org-bullets.nvim]], true)
-try_loadstring("\27LJ\1\2h\0\0\3\0\6\0\t4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\4\0003\2\3\0:\2\5\1>\0\2\1G\0\1\0\fsymbols\1\0\0\1\6\0\0\bâ—‰\bâ—‹\bâœ¸\bâœ¿\bâœ¼\nsetup\16org-bullets\frequire\0", "config", "org-bullets.nvim")
-time([[Config for org-bullets.nvim]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\1\2A\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\24lvim.core.autopairs\frequire\0", "config", "nvim-autopairs")
@@ -425,8 +467,9 @@ vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Event lazy-loads
 time([[Defining lazy-load event autocommands]], true)
-vim.cmd [[au BufWinEnter * ++once lua require("packer.load")({'toggleterm.nvim', 'barbar.nvim', 'which-key.nvim', 'dashboard-nvim'}, { event = "BufWinEnter *" }, _G.packer_plugins)]]
-vim.cmd [[au BufRead * ++once lua require("packer.load")({'indent-blankline.nvim', 'gitsigns.nvim', 'Comment.nvim', 'hop.nvim', 'lsp-rooter.nvim'}, { event = "BufRead *" }, _G.packer_plugins)]]
+vim.cmd [[au BufReadPost * ++once lua require("packer.load")({'nvim-ts-context-commentstring'}, { event = "BufReadPost *" }, _G.packer_plugins)]]
+vim.cmd [[au BufWinEnter * ++once lua require("packer.load")({'toggleterm.nvim', 'which-key.nvim', 'barbar.nvim', 'dashboard-nvim'}, { event = "BufWinEnter *" }, _G.packer_plugins)]]
+vim.cmd [[au BufRead * ++once lua require("packer.load")({'indent-blankline.nvim', 'gitsigns.nvim', 'hop.nvim', 'lsp-rooter.nvim', 'Comment.nvim'}, { event = "BufRead *" }, _G.packer_plugins)]]
 time([[Defining lazy-load event autocommands]], false)
 vim.cmd("augroup END")
 if should_profile then save_profiles() end
