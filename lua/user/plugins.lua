@@ -24,6 +24,7 @@ lvim.plugins = {
     {"jiangmiao/auto-pairs"},
 
     -- UI Enhancements
+    {"mhinz/vim-startify"},
     {
       "folke/todo-comments.nvim",
       requires = "nvim-lua/plenary.nvim",
@@ -75,13 +76,7 @@ lvim.plugins = {
         require('user.orgmode').config()
       end
     },
-    {"akinsho/org-bullets.nvim",
-      config = function()
-        require("org-bullets").setup {
-          symbols = { "◉", "○", "✸", "✿", "✼" }
-        }
-      end
-    },
+    {"akinsho/org-bullets.nvim"},
     {"lukas-reineke/headlines.nvim",
       config = function()
         require("headlines").setup()

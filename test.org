@@ -2,5 +2,9 @@
 ** This
 *** Cool Something long so thats it's like to be truncated
 **** Very, very 
-     
-
+     #+BEGIN_SRC js
+      function foo(foo){
+        console.log(foo);
+      }
+      foo('foo')
+     #+END_SRC

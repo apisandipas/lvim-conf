@@ -37,8 +37,8 @@ lvim.builtin.which_key.mappings["W"] = {
 -- lvim.builtin.which_key.mappings["o"] = { "+Org Mode" }
   -- c = { "<cmd>lua require('orgmode').action('capture.prompt') <cr>", "+Capture Prompt" },
   -- a = { "<cmd>lua require('orgmode').action('agenda.prompt') <cr>", "+Agenda Prompt"},
-lvim.builtin.which_key.mappings.o.a.b = {"<cmd>lua require('orgmode').action('agenda.advance_span', -1)", "View Earlier"}
-lvim.builtin.which_key.mappings.o.a.f = {"<cmd>lua require('orgmode').action('agenda.advance_span', 1)", "View Later"}
+-- lvim.builtin.which_key.mappings.o.a.b = {"<cmd>lua require('orgmode').action('agenda.advance_span', -1)", "View Earlier"}
+-- lvim.builtin.which_key.mappings.o.a.f = {"<cmd>lua require('orgmode').action('agenda.advance_span', 1)", "View Later"}
 
 
 -- Change Telescope navigation to use j and k for navigation and n and p for history in both input and normal mode.
